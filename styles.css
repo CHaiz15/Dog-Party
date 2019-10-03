@@ -17,12 +17,13 @@ li {
   height: 50px;
   width: 50px;
   top: 20px;
+  margin-left: 15px;
 }
 
 #nav-bar {
   position: relative;
-  border-bottom: 2px;
-  border: solid #048eaa;
+  border-bottom: 2px solid #048eaa;
+  border-top: 5px solid #75e2e6;
 }
 
 #page-links {
@@ -37,61 +38,61 @@ li {
 
 nav {
   background-color: #75e2e6;
-
 }
 
 h1 {
   text-align: center;
   color: white;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 .circle-pic {
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 125px;
+  height: 125px;
   border-style: solid;
   border-color:  #048eaa;
 }
 
 button {
-  height: 30px;
-  width: 200px;
+  height: 35px;
+  width: 300px;
   border-radius: 2px;
   background-color: #75e2e6;
+  margin-bottom: 25px;
 }
 
 #primary {
   text-align: center;
-  background-image: url(images/park.jpg);
+  background-position: center;
+  background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), url(images/park.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+  background-size: 100% 100%;
+  height: 600px;
   margin-top: -20px;
 }
 
 .nametag {
-  margin-right: 150px;
+  margin-right: 250px;
+  margin-bottom: 5px;
+  color: #ffffff;
 }
 
 .namebox {
-  display: block;
-  margin-left: 613px;
   height: 30px;
-  width: 194px;
+  width: 295px;
   border-radius: 2px;
+  margin-bottom: 25px;
 }
 
-form {
-  /* width: 200px; */
-  border-radius: 2px;
-  text-align: center;
+#input-area {
+  margin: 0 auto;
+  width: 430px;
 }
 
 .row {
   margin: 20px;
 }
-
 
 .how-to,
 .what-is,
@@ -104,7 +105,7 @@ form {
 
 .doggo-buttons {
   height: 30px;
-  width: 200px;
+  width: 240px;
   border-radius: 2px;
   background-color: #048eaa;
   color: white;
@@ -124,6 +125,7 @@ footer ul {
 
 footer p {
   margin: 1% 0% 1% 44%;
+  color: #ffffff;
 }
 
 .dog-info {
