@@ -17,20 +17,19 @@
       </nav>
         <section id="primary">
           <h1>
-            A Site About <strong>Some Dogs</strong>
+            A Site About <strong id="dogname">Some Dogs</strong>
           </h1>
           <img class="circle-pic" src="images/dog1-sq.jpg" alt="dog">
-          <div id="input-area">
+          <div id="inputarea">
             <p class="nametag">Name</p>
             <form>
-                <input type="text" name="dogname" class="namebox" placeholder="Enter your dog's name">
-                <button type="button" name="Name">Name This Dog</button>
+                <input type="text" name="dogname" id="namebox" placeholder="Enter your dog's name">
+                <button id="submit" type="button" name="Name">Name This Dog</button>
             </form>
           </div>
         </section>
-        <section class="">
           <div class="row">
-            <div class="how-to">
+            <div id="how-to">
               <h3>
                 How To Dog
               </h3>
@@ -40,7 +39,7 @@
               </p>
               <button type="button" name="How" class="doggo-buttons">How</button>
             </div>
-            <div class="what-is">
+            <div id="what-is">
               <h3>
                 What Is Dogs
               </h3>
@@ -50,7 +49,7 @@
               </p>
               <button type="button" name="What" class="doggo-buttons">What</button>
             </div>
-            <div class="facts">
+            <div id="facts">
               <h3>
                 Facts From Dogs
               </h3>
@@ -61,7 +60,6 @@
               <button type="button" name="Facts" class="doggo-buttons">Facts</button>
             </div>
             </div>
-          </section>
             <footer>
               <p>Learn About Dogs Online</p>
               <ul>
@@ -71,5 +69,6 @@
                 <li><img src="images/linkedin.svg" alt=""><a href=""></a></li>
               </ul>
             </footer>
+            <script src="main.js"></script>
     </body>
 </html>

@@ -70,6 +70,7 @@ button {
   background-size: 100% 100%;
   height: 600px;
   margin-top: -20px;
+  width: auto;
 }
 
 .nametag {
@@ -78,14 +79,18 @@ button {
   color: #ffffff;
 }
 
-.namebox {
+strong {
+  font-weight: bolder;
+}
+
+#namebox {
   height: 30px;
   width: 295px;
   border-radius: 2px;
   margin-bottom: 25px;
 }
 
-#input-area {
+#inputarea {
   margin: 0 auto;
   width: 430px;
 }
@@ -94,13 +99,14 @@ button {
   margin: 20px;
 }
 
-.how-to,
-.what-is,
-.facts {
+#how-to,
+#what-is,
+#facts {
   text-align: center;
   width: 33%;
   display: inline-block;
   height: 500px;
+  vertical-align: top;
 }
 
 .doggo-buttons {
@@ -109,6 +115,7 @@ button {
   border-radius: 2px;
   background-color: #048eaa;
   color: white;
+  vertical-align: bottom;
 }
 
 footer {
@@ -119,12 +126,8 @@ footer {
   padding: 1%;
 }
 
-footer ul {
-  margin: 1% 0% 1% 40%;
-}
-
-footer p {
-  margin: 1% 0% 1% 44%;
+footer p, footer ul {
+  text-align: center;
   color: #ffffff;
 }
 
